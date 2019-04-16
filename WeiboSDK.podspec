@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.vendored_library = 'WeiboSDK/libWeiboSDK.a'
   s.libraries = 'sqlite3', 'z'
   s.source_files = 'WeiboSDK/*.{h}'
-  s.resource = 'WeiboSDK/WeiboSDK.bundle'
+  s.resources = 'WeiboSDK/WeiboSDK.bundle'
   #s.public_header_files = 'runtime/TFRuntimeManager.h'
  
 end
