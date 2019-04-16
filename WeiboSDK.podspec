@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/imrain/WeiboSDK.git', :tag => s.version}
   s.requires_arc = true
   #s.vendored_frameworks = 'WeiboSDK/*.{framework}'
-  s.frameworks = 'Security'
+  s.frameworks = 'Security','UIKit','Foundation'
   s.vendored_library = 'WeiboSDK/libWeiboSDK.a'
   #s.libraries = 'sqlite3.0', 'z','c++'
   s.source_files = 'WeiboSDK/*.{h}'
