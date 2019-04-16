@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WeiboSDK"
-  s.version      = "3.2.1"
+  s.version      = "3.2.2"
   s.ios.deployment_target = '11.0'
   s.summary      = "微博SDK"
   s.homepage     = "https://github.com/imrain/WeiboSDK"
